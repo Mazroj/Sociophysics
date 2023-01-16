@@ -71,10 +71,10 @@ def takedat(resultstotal,repetitions):
 # In[ ]:
 
 
-n = input("Set the size of the global network:")       ## Size of network
-p = input("Set the number of options:")          ## Number of options
-t = 5000        ## Iteration time
-propaganda = int(p*0.8)    ## Option exposed by external force
+n = 100       ## Size of network
+p = 10          ## Number of options
+t = 10000        ## Iteration time
+propaganda = 8    ## Option exposed by external force
 repetitions = 50
 
 
