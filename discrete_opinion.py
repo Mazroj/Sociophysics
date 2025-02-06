@@ -16,7 +16,7 @@ class Global:
         Creat an array connected globally and gives an opinion value.
         '''
         if tip == 'uniform':
-            x = np.random.randint(0,self.options,size=self.size)
+            x = np.random.randint(1,self.options,size=self.size)
         elif tip == 'normal':
             normal_values = np.random.normal(loc=mean, scale=sdev, size = self.size)
 
